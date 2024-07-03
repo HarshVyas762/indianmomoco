@@ -20,10 +20,10 @@
         $mail->Password='AJ8BpvIZm4hPRQ0q';
         
         $mail->setFrom("webmaster@indianmomoco.com", 'The Indian Momoco');
-        $mail->addAddress('Sachin.pradhan@vmrestaurantconsultants.com');
-        $mail->addAddress('Vsfoodiecorner@vmrestauratconsultants.com');
-        $mail->addAddress('Dharmeshsuryavanshi@gmail.com');
-        $mail->addAddress('franchise@vmrestaurantconsultants.com');
+        // $mail->addAddress('Sachin.pradhan@vmrestaurantconsultants.com');
+        // $mail->addAddress('Vsfoodiecorner@vmrestauratconsultants.com');
+        // $mail->addAddress('Dharmeshsuryavanshi@gmail.com');
+        $mail->addAddress('harsh.v@brewdmedia.com');
         $subject = "New enquiry - ".$_POST['cs_subject'];
         
         $formcontent = "<b>Contact Information</b><br>Name: ".$_POST['cs_name']."<br>Email Id: ".$_POST['cs_email']."<br>Mobile No.: ".$_POST['cs_phone']."<br>Current Occupation: ".$_POST['cs_co']."<br>City: ".$_POST['cs_city']."<br>Country: ".$_POST['cs_country']."<br><br><b>Company Details</b><br>Company: ".$_POST['cs_company']."<br>Industry: ".$_POST['cs_industry']."<br>Year Estabishment: ".$_POST['cs_estab']."<br>Telephone number: ".$_POST['cs_tel']."<br>Website: ".$_POST['cs_web']."<br>City: ".$_POST['cs_city2']."<br>Country: ".$_POST['cs_country2']."<br>Have you ever been involved in Franchising? : ".$_POST['cs_fr']."<br>Do you have any prior Food & Beverage Industry Experience? : ".$_POST['cs_exp']."<br>What is your allocated investment for the proposed franchise venture(s)?: ".$_POST['cs_pr']."<br>What type of Franchise Venture are you interested in? : ".$_POST['cs_frin']."<br><br>".$_POST['contactmsg'];
