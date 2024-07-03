@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="eng">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -1108,7 +1107,7 @@
         $('#fm-send').bind('submit', function () {
           $.ajax({
             type: 'post',
-            url: 'send.php',
+            url: '/send.php',
             data: $('#fm-send').serialize(),
             success: function (data) {
               alert(data);
