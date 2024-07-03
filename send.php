@@ -1,4 +1,5 @@
 <?php
+echo"harsh;exit;"
     if(!empty($_POST['cs_email'])){
         
         //Array ( [] => yes [] => yes [] => yes [] => yes [cs_msg] => Msg [submitfrm] => ) Oops!, Somethings went worng.
